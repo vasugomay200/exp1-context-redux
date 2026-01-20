@@ -1,16 +1,38 @@
-# React + Vite
+Experiment No. 1
+Title
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Implementation of state management using React Context API and Redux Toolkit.
 
-Currently, two official plugins are available:
+Aim
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To implement authentication state management using React Context API and product management using Redux Toolkit in a React application.
 
-## React Compiler
+Objective
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To understand state management in React
 
-## Expanding the ESLint configuration
+To implement authentication using Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To manage product data using Redux Toolkit
+
+To integrate Context API and Redux Toolkit in a single application
+
+Software / Tools Required
+
+Visual Studio Code
+
+Node.js
+
+React JS
+
+Redux Toolkit
+
+Web Browser
+
+Theory
+
+State management is an important aspect of React applications. The Context API is used to manage global states such as user authentication, login status, and roles without prop drilling. Redux Toolkit provides a simplified and efficient approach to manage complex application states like product catalogs and cart data. By combining Context API for authentication and Redux Toolkit for product management, the application becomes more scalable, modular, and easier to maintain.
+
+Result
+
+Authentication state was successfully managed using React Context API, and product state was effectively handled using Redux Toolkit. Both state management techniques were integrated successfully in the React application.
